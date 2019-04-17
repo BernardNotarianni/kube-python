@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: python-webserver
-        image: us.gcr.io/fred-bernard-web-server
+        image: us.gcr.io/symbiont-rex/fred-bernard-web-server
         resources:
           requests:
             cpu: 100m
