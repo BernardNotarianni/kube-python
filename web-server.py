@@ -4,5 +4,5 @@ from bottle import route, run, template
 def index():
     return '<html><b>We are devops rockstars!!</b></html>'
 
-run(host='localhost', port=8000)
+run(host='0.0.0.0', port=8000)
 
